@@ -1,6 +1,7 @@
 name: Verify maintenance branch
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - ci/verify-modernization
